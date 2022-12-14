@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, minimum-scale=1.0, user-scalable=yes">
+  <meta name="title" content="사이트 제목">
+  <meta name="keywords" content="키워드 입력">
+  <meta name="description" content="사이트 상세설명">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/common_layout.css">
+  <link rel="stylesheet" href="css/sub_layout.css">
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/common.js"></script>
+  <title>구리시 Smart Movas  교통약자 운전원용 앱에 오신것을 환영합니다.</title>
+</head>
+<body id="sub"><!--sub -->
+<div class="accessibility">
+    <a href="#contents">컨텐츠 바로가기</a>
+</div>
+
+<hr>
+
+<div id="wrapper">
+  <header id="header">
+    <h1 class="logo_title">구리시 교통약자</h1>
+    <div class="gnb">
+      <ul class="clearfix">
+        <li><a href="#" class="refresh"><span>새로고침</span></a></li>
+        <li><a href="#" class="login"><span>로그인</span></a></li>
+      </ul>
+    </div>
+    <!--// gnb -->
+  </header>
+  <!-- //header -->
+
+  <main id="container" class="colgroup">
+    <article>
+      <div id="contents">
+        <div class="center_call">
+          <div class="cont_box">
+            <div class="col_box">
+              <div class="title"><h3>배차<br>일자</h3></div>
+              <div class="cont">
+                <select id="" title="배차일">
+                  <option value="">2020.03.26</option>
+                  <option value="">옵션2</option>
+                  <option value="">옵션3</option>
+                </select>
+              </div>
+            </div>
+            <!--//col_box -->
+            <div class="col_box">
+              <div class="title"><h3>예약<br>총계</h3></div>
+              <div class="cont">
+                <span>2</span>건 <!--span 안에 예약 총건이 들어갑니다.-->
+              </div>
+            </div>
+            <!--//col_box -->
+          </div>
+          <!--//cont_box-->
+
+          <div class="cont_box2">
+            <table class="table">
+              <caption>구리시센터콜에 대한 표이며 시간, 고객명순으로 정보를 제공</caption>
+              <colgroup>
+                <col style="width:30%">
+                <col style="width:70%">
+              </colgroup>
+              <thead class="text_center">
+                <tr>
+                  <th scope="col">시간</th>
+                  <th scope="col">고객명</th>
+                </tr>
+              </thead>
+              <tbody class="text_center">
+                <tr>
+                  <td>09 : 20</td>
+                  <td><button type="button" class="btn_opp_manager btn_layer" data-pop_name="layer_opp_manager">이동민</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--//cont_box2 --->
+          <a href="#"  class=" btn"><span>센터콜</span></a>
+      </div>
+      <!-- // center_call -->
+    </div>
+    <!-- // contents -->
+    </article>
+  </main>
+  <!-- //container -->
+
+
+  <footer id="footer">
+    <div class="footer_logo"><span>구리시 로고</span></div>
+      <nav class="footer_nav">
+      <h2 class="skip">정보이용</h2>
+      <ul class="clearfix">
+        <li><a href="#">서비스이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+      </ul>
+    </nav>
+    <div class="footer_info">
+      <address> [11915]  경기도 구리시 동구릉로 136번길 57, 2층</address>
+      <div class="tell"><span>대표전화</span> <strong>1577-3659</strong></div>
+    </div>
+  </footer>
+  <!--// footer -->
+</div>
+<!-- //wrapper -->
+
+<!-- 구리시 교통약자 상세내역 팝업 -->
+<div class="layer_popup layer_opp_manager">
+  <div class="layer_wrap">
+    <div class="layer_inner">
+      <div class="popup_title">
+        <h1>구리시 교통약자 상세내용</h1><!--팝업 제목-->
+      </div>
+      <!-- //popup_title --> 
+      <div class="layer_cont">
+        <div class="layer_opp_cont">
+          <div class="table_box">
+            <div class="table_cont">
+              <table class="table type2">
+                <caption>구리시 교통약자 상세 내역에 대한 표이며 고객명, 예약일시, 연락처순으로 정보를 제공</caption>
+                <colgroup>
+                  <col style="width:30%">
+                  <col style="width:70%">
+                </colgroup>
+                <tbody class="text_center">
+                   <tr>
+                    <th scope="row">고 객 명</th>
+                    <td>
+                      <div class="cont">
+                        조은혜(SW제외)
+                        <a href="#" class="btn_opp_manager2 btn_layer message_btn" data-pop_name="layer_opp_manager2">메시지</a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">예약일시</th>
+                    <td>2022-12-01 (오후) 2: 20 <br>(0/무)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">연 락 처</th>
+                    <td>010-3667-3864</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--// table_cont -->
+
+            <div class="table_cont navy">
+              <table class="table type2">
+                <caption>구리시 교통약자 호출지(바로가기), 상세 내역에 대한 표이며  약식, 전체주소순으로 정보를 제공</caption>
+                <colgroup>
+                  <col style="width:30%">
+                  <col style="width:70%">
+                </colgroup>
+                <tbody class="text_center">
+                  <tr>
+                    <th scope="row" rowspan="2">
+                      <span class="title">호출지</span>
+                      <div class="link_box"><a href="#" title="새창" class="text">바로가기</a></div>
+                    </th>
+                    <td>
+                      <strong class="tit">[ 약 식 ]</strong>
+                      <p>구리장애인자립생활센터</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong class="tit">[ 전 체 주 소 ]</strong>
+                      <p>경기도 구리시 신북면 신평리 <br>
+                      605- 2 구리장애인자립생활센터</p>
+                    </td>
+                  </tr>
+                </tbody>
+             </table>
+            </div>
+            <!--// table_cont navy -->
+
+            <div class="table_cont green">
+              <table class="table type2">
+                <caption>구리시 교통약자 목적지(바로가기) 상세 내역에 대한 표이며 약식, 전체주소순으로 정보를 제공</caption>
+                <colgroup>
+                  <col style="width:30%">
+                  <col style="width:70%">
+                </colgroup>
+                <tbody class="text_center">
+                  <tr>
+                    <th scope="row" rowspan="2">
+                      <span class="title">목적지</span>
+                      <div class="link_box"><a href="#" title="새창" class="text">바로가기</a></div>
+                    </th>
+                    <td>
+                      <strong class="tit">[ 약 식 ]</strong>
+                      <p>구리장애인자립센터</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong class="tit">[ 전 체 주 소  ]</strong>
+                      <p>경기도 구리시 신북면 신평리 <br>
+                      605- 2 구리장애인자립생활센터</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--// table_cont green -->
+          </div>
+          <!--//table_box-->
+
+          <div class="btn_box">
+            <a href="#">호 ▶ 목</a>
+            <a href="#" class="btn_opp_manager3 btn_layer" data-pop_name="layer_opp_manager3">운행거리</a>
+            <a href="#" class="btn_opp_manager4 btn_layer" data-pop_name="layer_opp_manager4">금일누계</a>
+          </div>
+          <!--//btn_box-->
+        </div>
+        <!-- //layer_opp_cont --> 
+      </div>
+      <!-- //layer_cont --> 
+      <p class="btn_layer_close"><a href="#" class="btn_pop_close">닫기</a></p>
+    </div>
+    <!-- //layer_inner --> 
+  </div>
+  <!-- //layer_wrap --> 
+</div>
+<!-- //구리시 교통약자 상세내역 팝업 -->
+
+
+<!--  메세지 관리 팝업 -->
+<div class="layer_popup layer_opp_manager2"><!-- class="layer_opp_manager2" -->
+    <div class="layer_wrap">
+        <div class="layer_inner">
+            <div class="layer_cont">
+                <div class="layer_opp_cont">
+                    <div id="popContents">
+                        <div id="popContentsArea">
+                            <table  class="table type2">
+                                <caption>행복콜 문자발송에 대한 표입니다.</caption>
+                                <colgroup>
+                                    <col style="width:40px">
+                                    <col style="width:auto">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="radio" name="msg_id" id="101" value="1"></td>
+                                        <td><label for="101">10분후 도착합니다.</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" name="msg_id" id="102" value="2"></td>
+                                        <td><label for="102">20분후 도착합니다.</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" name="msg_id" id="103" value="3"></td>
+                                        <td><label for="103">30분후 도착합니다.</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" name="msg_id" id="104" value="4"></td>
+                                        <td><label for="104">정각에 도착합니다.</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" name="msg_id" id="105" value="5"></td>
+                                        <td><label for="105">10분 일찍 도착합니다.</label> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- //popContentsArea -->
+                    </div>
+                    <!-- //popContents -->
+                </div>
+                <!-- //layer_opp_cont -->
+                <p class="btn_popup">
+                    <button type="button" class="btn_save">발송</button>
+                    <button type="button" class="btn_cancel">취소</button>
+                </p>
+            </div>
+            <!-- //layer_cont --> 
+        </div>
+         <!-- //layer_inner --> 
+    </div>
+     <!-- //layer_wrap --> 
+</div>
+<!-- //메세지 관리 --> 
+
+
+<!-- 운행거리 팝업 -->
+<div class="layer_popup layer_opp_manager3"><!-- class="layer_opp_manager3" -->
+  <div class="layer_wrap">
+    <div class="layer_inner">
+        <div class="layer_cont">
+            <div class="layer_opp_cont">
+                <div id="popContents">
+                    <div id="popContentsArea">
+                      <p>이용자 : 전선환 <strong>14:20</strong></p>
+                      <div class="cont"><span>운행거리 : </span><input type="text" id="" name="" placeholder="12.4" title="운행거리"> <span>km</span></div>
+                    </div>
+                    <p class="btn_right">
+                        <button type="button" class="btn_save">저장</button>
+                        <button type="button" class="btn_cancel">취소</button>
+                    </p>
+                </div>
+                <!-- //popContents -->
+            </div>
+            <!-- //layer_opp_cont -->
+        </div>
+        <!-- //layer_cont --> 
+    </div>
+    <!-- //layer_inner --> 
+  </div>
+  <!-- //layer_wrap --> 
+</div>
+<!-- //운행거리 팝업 --> 
+
+
+<!-- 금일누계 팝업 -->
+<div class="layer_popup layer_opp_manager4"><!-- class="layer_opp_manager4" -->
+    <div class="layer_wrap">
+      <div class="layer_inner">
+        <div class="layer_cont">
+          <div class="layer_opp_cont">
+            <div id="popContents">
+              <div id="popContentsArea">
+                <p>운전자 : 정승조 <strong>14:20</strong></p>
+                <div class="cont"><span>운행거리 : </span><input type="text" id="" name="" placeholder="45,182.5" title="운행거리"> <span>km</span></div>
+              </div>
+              <p class="btn_right">
+                <button type="button" class="btn_save">저장</button>
+                <button type="button" class="btn_cancel">취소</button>
+              </p>
+            </div>
+            <!-- //popContents -->
+          </div>
+          <!-- //layer_opp_cont -->
+        </div>
+        <!-- //layer_cont --> 
+       </div>
+       <!-- //layer_inner --> 
+    </div>
+    <!-- //layer_wrap --> 
+</div>
+<!-- //금일누계 팝업 --> 
+
+
+<div class="layer_overlay"></div>
+
+</body>
+</html>

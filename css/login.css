@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*  container */
+#container {z-index:5;}
+#container:before {display:none;}
+body {position: relative; background-color: #e2e4f0; ;}
+body:before  {display: block; content:'' ; position: absolute; left:0; top:50px; width:100%; height:100%; background: url(../images/commom/wrap_bg.png) no-repeat center top; background-size:cover;}
+/* 인트로 */
+.intro_wrap #header {background-color: #138251;}
+.intro_box .cont_box ul {display: flex; justify-content:center;}
+.intro_box .cont_box ul li  {width:140px; }
+.intro_box .cont_box ul li  a {display:block;}
+.intro_box .cont_box ul li img {max-width:100%}
+
+/* 로그인 */
+.login_wrap {position: relative;}
+.login_wrap:before {display:block; position:absolute; left:0; top:50px; width:100%;height:100%;content:''; background: url(../images/commom/wrap_bg.png) no-repeat center top; background-size:100%;}
+
+/* login_wrap Tiitle */
+.title_box {text-align: center;}
+.title_box h2 {width:105px; height: 35px; margin:25px auto 0;} 
+.title_box h2 img {max-width: 100%;}
+.title_box p {width: 255px; margin:33px auto 20px;}
+.title_box p img {max-width: 100%;}
+
+/* form_box */
+.login_box .form_box {position: relative; width:245px; margin:0 auto;}
+.login_box .form_box ul {margin-right:85px;}
+.login_box .form_box li {position:relative;}
+.login_box .form_box li:first-child {padding-bottom:4px;}
+.login_box .form_box li .cont_box {padding:0 10px; border:1px solid #d3d0d0;background-color:#e9f5fc;box-sizing:border-box;}
+.login_box .form_box li:first-child .cont_box {background-color:#fff;}
+.login_box .form_box li input {width:100%; height:44px; margin:0; padding:0; font-size:15px; font-weight:600; color:#242323;  background-color: transparent;  border:none; box-sizing:border-box;}
+.login_box .form_box  .submit {display:block; position:absolute; right:0; top:0; width:80px; height:95px; padding:0; font-size:16px; line-height:95px; color:#fff; font-weight:600; text-align:center; border:none; background-color:#d95a49;}
+.login_box .put_box {margin-top:50px; text-align:center; font-family:'NanumG';}
+.login_box .put_box p span {display: inline-block; position: relative;  padding:0 10px; font-size:14px; letter-spacing: -1px; line-height:20px; color:#fff; font-weight:600; z-index:10; }
+.login_box .put_box p span:before {content: ''; position: absolute; left:0; top:0; z-index:-1; width:100%; height:100%; background-color:#616161;  border-radius: 30px; }
+.login_box .put_box .tell {margin-top:15px; text-align: center;}
+.login_box .put_box .tell span {display:inline-block; font-size:10px; line-height: 12px; color:#6D6C6C; font-weight: 400; vertical-align: middle;}
+.login_box .put_box .tell strong {display: inline-block; margin-left: 5px; color: #5f5f5f; font-family:'Malgun Gothic';  font-weight: 600; font-size:17px; line-height: 19px;   letter-spacing:1px}
