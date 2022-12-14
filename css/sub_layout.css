@@ -41,8 +41,8 @@
 .layer_opp_manager .table_box .table.type2 td .cont  .message_btn:before {display: inline-block; content:''; position: absolute; left:50%; top:50%; transform:translate(-50% ,-50%); width:25px; height:17px; overflow:hidden}
 .layer_opp_manager .table_box .table.type2 th .title {display:inline-block; position: relative; padding-top:33px;}
 .layer_opp_manager .table_box .table.type2 th .title:before {display: inline-block; content:''; position: absolute; left:50%; top:0; transform:translate(-50% ,0); width:27px; height:22px; background:url(../images/sub/center_call_bg.png) center center no-repeat; background-size: contain; overflow:hidden}
-.layer_opp_manager .table_box .table.type2 .link_box {margin-top:6px;}
-.layer_opp_manager .table_box .table.type2 .link_box .text {display:block; width:60px; height:20px; color:#0c3b95;  font-size:11px; line-height:20px; background-color: #fff; border-radius: 50px;}
+.layer_opp_manager .table_box .table.type2 .link_box {margin-top:6px; text-align:center;}
+.layer_opp_manager .table_box .table.type2 .link_box .text {display:inline-block; width:60px; height:20px; color:#0c3b95;  font-size:11px; line-height:20px; background-color: #fff; border-radius: 50px;}
 .layer_opp_manager .table_box .table.type2 .tit {display:block; font-size:14px; margin-bottom:7px; color:#477F9D; font-weight:600;}
 
 .layer_opp_manager .table_box .table_cont {margin-bottom:8px;}
