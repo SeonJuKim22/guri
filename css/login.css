@@ -3,7 +3,7 @@
 /*  container */
 #container {z-index:5;}
 #container:before {display:none;}
-body {position: relative; background-color: #e3e5f0; ;}
+body {position: relative; background-color: #e5e7f2; ;}
 body:before  {display: block; content:'' ; position: absolute; left:0; top:50px; width:100%; height:100%;}
 /* 인트로 */
 .intro_wrap #header {background-color: #138251;}
