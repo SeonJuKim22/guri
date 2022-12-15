@@ -64,7 +64,7 @@ body {position:relative; height:100% ;font-size:12px;line-height:1.4em;color:#00
 #footer .footer_info {color:#6D6C6C; letter-spacing: -0.025rem;}
 #footer .footer_info .tell {text-align: center;}
 #footer .footer_info .tell span { display: inline-block; font-size: 15px;  line-height: 17px;  font-weight: 400;  vertical-align: middle; ;}
-#footer .footer_info .tell strong {display: inline-block;  margin-left: 5px; color: #5f5f5f; font-family: 'Malgun Gothic'; font-weight: 400;  font-size: 25px; line-height: 27px; letter-spacing: 1px;}
+#footer .footer_info .tell strong {display: inline-block;  margin-left: 5px; color: #5f5f5f; font-family: 'Malgun Gothic'; font-weight: 400;  font-size: 25px; line-height: 27px; letter-spacing: 1px; vertical-align: sub;}
 #footer .footer_info address {display: block; margin-top:15px; font-size:14px;  text-align: center;}
 #footer .footer_info .copy {margin-top:10px; font-size:12px; text-align: center; letter-spacing:-0.025rem;}
 
