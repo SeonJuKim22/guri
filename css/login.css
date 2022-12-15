@@ -34,7 +34,7 @@ body:before  {display: block; content:'' ; position: absolute; left:0; top:50px;
 .login_box .form_box li .cont_box {padding:0 10px; border:1px solid #d3d0d0;background-color:#e9f5fc;box-sizing:border-box;}
 .login_box .form_box li:first-child .cont_box {background-color:#fff;}
 .login_box .form_box li input {width:100%; height:44px; margin:0; padding:0; font-size:15px; font-weight:600; color:#242323;  background-color: transparent;  border:none; box-sizing:border-box; }
-.login_box .form_box  .submit {display:block; position:absolute; right:0; top:0; width:80px; height:95px; padding:0; font-size:16px; line-height:95px; color:#fff; font-weight:600; text-align:center; border:none; background-color:#d95a49; -webkit-appearance: none; -webkit-border-radius: 0;}
+.login_box .form_box  .submit {display:block; position:absolute; right:0; top:0; width:80px; height:95px; padding:0; font-size:16px; line-height:95px; color:#fff; font-weight:600; text-align:center; border:none; background-color:#d95a49; -webkit-appearance:none; -webkit-border-radius: 0;}
 .login_box .put_box {margin-top:50px; text-align:center; font-family:'NanumG';}
 .login_box .put_box p span {display: inline-block; position: relative;  padding:0 10px; font-size:16px; letter-spacing: -1px; line-height:23px; color:#fff; font-weight:600; z-index:10; }
 .login_box .put_box p span:before {content: ''; position: absolute; left:0; top:0; z-index:-1; width:100%; height:100%; background-color:#616161;  border-radius: 10px; }
