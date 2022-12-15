@@ -51,14 +51,15 @@ body {position:relative; height:100% ;font-size:12px;line-height:1.4em;color:#00
 #sub #container {padding-top:13px; padding-bottom:33px;}
 #sub #container:before { background-color: #fff;}
 /* footer */
-#footer {position: relative; padding:20px 0 0 ;font-family:'NanumG'; font-size: 12px; line-height:14px;}
+#footer {position: relative; padding:20px 0 0 ;font-family:'NanumG'; margin:0 5% 0;}
 #footer .footer_logo {margin-bottom:15px; text-align:center; line-height:0;}
 #footer .footer_logo span {display:inline-block; overflow:hidden; width:90px; height:30px ;font-size:1px; line-height:1px; color:transparent; background:url(../images/commom/footer_logo.png) center center no-repeat;   background-size: contain;}
 #footer .footer_nav {margin-bottom:10px;}
 #footer .footer_nav ul {display: flex; justify-content:center; }
 #footer .footer_nav li a {display:block; position:relative; padding:0 8px 0 7px; font-size:13px ;line-height:15px; color:#6D6C6C;}
 #footer .footer_nav li a:before {display:inline-block; content:''; position:absolute; left:0; top:2px; width:1px; height:11px; background-color:#6D6C6C;}
-/*#footer .footer_nav li:first-child a {padding-left:0;}*/
+#footer .footer_nav li:first-child a {padding-left:0;}
+#footer .footer_nav li:last-child a {padding-right:0;}
 #footer .footer_nav li:first-child a:before {display:none;}
 #footer .footer_info {color:#6D6C6C; letter-spacing: -0.025rem;}
 #footer .footer_info .tell {text-align: center;}
