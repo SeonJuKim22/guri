@@ -60,27 +60,27 @@
 .layer_opp_manager .layer_opp_cont{overflow-y:auto; max-height:733px; padding:13px 15px; background-color:#e2e1e0; box-sizing:border-box; }
 
 /* 메세지 콜 팝업*/
-.layer_opp_manager2 .layer_wrap {top:50%; transform:translate(-50%,-50%); width:310px; border:2px solid #d95a49;}
+.layer_opp_manager2 .layer_wrap {top:50%; transform:translate(-50%,-50%); width:90%; border:2px solid #d95a49;}
 .layer_opp_manager2 .layer_cont {padding:5px}
 .layer_opp_manager2 .layer_opp_cont {overflow-y:auto; max-height:480px; box-sizing:border-box;}
 .layer_opp_manager2 .layer_opp_cont #popContents #popContentsArea table {border-collapse:separate; border-spacing:0 2px;}
 .layer_opp_manager2 .layer_opp_cont #popContents #popContentsArea table td:first-child {background-color:#eeefef; border-right:0 none; text-align:center;}
-.layer_opp_manager2 .layer_opp_cont #popContents #popContentsArea table tr td {font-size:16px; line-height:18px;  letter-spacing:-1px; font-family:'Malgun Gothic';  border:1px solid #231815;}
+.layer_opp_manager2 .layer_opp_cont #popContents #popContentsArea table tr td {font-size:25px; font-weight:600; line-height:27px;  letter-spacing:-1px; font-family:'Malgun Gothic';  border:1px solid #231815;}
 .layer_opp_manager2 .layer_opp_cont #popContents #popContentsArea table tr td input {margin:0;}
 .layer_opp_manager2 .layer_wrap .btn_popup {display:flex; margin-top:6px;}
-.layer_opp_manager2 .layer_wrap .btn_popup button {display:inline-block; flex-grow:1; height:40px; margin-left:4px; border-radius:5px; ; font-size:17px; color:#fff;}
+.layer_opp_manager2 .layer_wrap .btn_popup button {display:inline-block; flex-grow:1; height:50px; margin-left:4px; border-radius:5px; ; font-size:23px; color:#fff;}
 .layer_opp_manager2 .layer_wrap .btn_popup button.btn_save {margin-left:0; background-color:#d95a49;}
 .layer_opp_manager2 .layer_wrap .btn_popup button.btn_cancel {background-color:#5893c9;}
 
 /* 운행거리 팝업*/
-.layer_opp_manager3 .layer_wrap, .layer_opp_manager4 .layer_wrap {top:50%; transform:translate(-50%,-50%); width:310px; min-height:80px; border:2px solid #6499cb;}
-.layer_opp_manager3 .layer_cont, .layer_opp_manager4 .layer_cont {padding:7px 13px;}
+.layer_opp_manager3 .layer_wrap, .layer_opp_manager4 .layer_wrap {top:50%; transform:translate(-50%,-50%); width:90%; border:2px solid #6499cb;}
+.layer_opp_manager3 .layer_cont, .layer_opp_manager4 .layer_cont {padding:20px 10px;}
 .layer_opp_manager3 #popContents, .layer_opp_manager4 #popContents  {position:relative; padding-right:70px; color:#231815; letter-spacing:-0.025rem}
-.layer_opp_manager3 #popContents p, .layer_opp_manager4 #popContents p {margin-top:8px; font-size:21px; line-height:23px; font-weight:600;}
+.layer_opp_manager3 #popContents p, .layer_opp_manager4 #popContents p {margin-top:8px; font-size:28px; line-height:30px; font-weight:600;}
 .layer_opp_manager3 #popContents .btn_right, .layer_opp_manager4 #popContents .btn_right {position:absolute; right:0; top:-15px;}
-.layer_opp_manager3 #popContents .btn_right  button, .layer_opp_manager4 #popContents .btn_right  button {display:block; width:55px; height:30px; margin-bottom:3px; font-size:15px; line-height:30px; color:#fff; border-radius:3px; background-color:#5893c9; font-weight:600;}
-.layer_opp_manager3 #popContents .cont, .layer_opp_manager4 #popContents .cont {margin-top:8px; font-size:18px; line-height:20px; font-weight:600;}
-.layer_opp_manager3 #popContents .cont input, .layer_opp_manager4 #popContents .cont input  {width:79px; font-weight:600; text-align:right; border:1px solid #231815; color:#231815;}
+.layer_opp_manager3 #popContents .btn_right  button, .layer_opp_manager4 #popContents .btn_right  button {display: block; width: 65px; height: 40px; margin-bottom: 5px;  font-size: 20px; line-height: 40px;  color: #fff;  border-radius: 3px;  background-color: #5893c9;  font-weight: 600;}
+.layer_opp_manager3 #popContents .cont, .layer_opp_manager4 #popContents .cont {margin-top:15px; font-size:25px; line-height:30px; font-weight:600;}
+.layer_opp_manager3 #popContents .cont input, .layer_opp_manager4 #popContents .cont input  {width:100px; font-weight:600; text-align:right; border:1px solid #231815; color:#231815;}
 .layer_opp_manager3 #popContents .cont input::placeholder, .layer_opp_manager4 #popContents .cont input::placeholder {color:#231815;}
 .layer_opp_manager3 #popContents .cont span:first-child, .layer_opp_manager4 #popContents .cont span:first-child {margin-right:5px;}
 .layer_opp_manager3 #popContents .cont span, .layer_opp_manager4 #popContents .cont span  {display:inline-block; vertical-align:middle;}
@@ -108,7 +108,7 @@
 .board .list li .cont  span em {display:inline-block; margin-left:5px;}
 
 /* sub footer */
-#sub #footer {text-align:center;}
+#sub #footer {text-align:center; padding-bottom:30px;}
 #sub #footer .footer_nav {display:inline-block; margin-bottom:5px; padding:0 6px 3px; border-bottom:1px solid #6D6C6C;}
 #sub #footer .footer_info address {margin-top:0;}
 #sub #footer .footer_info .tell {margin-top:10px;}

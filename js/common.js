@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    jaAllReset();
 	//리사이징 체크를 위한 가로사이즈 
 	var loadWidth = window.innerWidth;
 	/* 레이어 팝업 */
@@ -46,3 +47,25 @@ $(document).ready(function(){
     });
 });
 	
+
+
+
+$(window).resize(function(){
+	fullHeight(); // 전체화면 높이값
+});
+
+
+/* 전체 함수 호출 */
+function jaAllReset(){
+	fullHeight(); // 전체화면 높이값
+}
+
+
+/* 전체화면 높이값 */
+function fullHeight() {
+	var $winH = $(window).innerHeight();
+
+	$('#wrapper').css({ 'height' : $winH });
+}
+
+
