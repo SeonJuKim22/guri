@@ -1,5 +1,6 @@
 $(document).ready(function(){
     jaAllReset();
+    fullHeight(); // 전체화면 높이값
 	//리사이징 체크를 위한 가로사이즈 
 	var loadWidth = window.innerWidth;
 	/* 레이어 팝업 */
@@ -45,14 +46,12 @@ $(document).ready(function(){
 	$(".layer_opp_manager4 .btn_cancel").click(function(){
         $(".layer_opp_manager4").hide();
     });
+    
 });
 	
 
 
 
-$(window).resize(function(){
-	fullHeight(); // 전체화면 높이값
-});
 
 
 /* 전체 함수 호출 */
@@ -65,7 +64,7 @@ function jaAllReset(){
 function fullHeight() {
 	var $winH = $(window).innerHeight();
 
-	$('#wrapper').css({ 'height' : $winH });
+	$('body').css({ 'height' : $winH });
 }
 
 

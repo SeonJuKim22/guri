@@ -71,7 +71,7 @@ body {position:relative;font-size:15px; line-height:1.6em; color:#000; font-fami
 
 /* Footer */
 #footer {position:relative; margin:25px auto 0;}
-#footer .footer_logo {margin-bottom:7px; text-align:center; line-height:0;}
+#footer .footer_logo {margin-bottom:15px; text-align:center; line-height:0;}
 #footer .footer_logo span {display:inline-block; overflow:hidden; width:80px; height:24px; font-size:1px; line-height:1px; color:transparent; background:url(../images/commom/footer_logo.png) center center no-repeat; background-size:contain;}
 #footer .footer_nav {margin-bottom:15px;}
 #footer .footer_nav ul {display:flex; justify-content:center;}
